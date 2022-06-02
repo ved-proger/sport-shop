@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Каталог</title>
+	<meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top top-header">
+				<div class="header__container header__container_top">
+					<div class="top-header__column">
+						<div class="top-header__menu menu">
+							<button type="button" class="menu__icon icon-menu">
+								<span></span>
+								<span></span>
+								<span></span>
+							</button>
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li><a href="#" class="menu__link current">Бренды</a></li>
+									<li><a href="catalog.html" class="menu__link">Распродажа</a></li>
+									<li><a href="product-order.html" class="menu__link">Заказ продукта</a></li>
+									<li><a href="product.html" class="menu__link">Продукт</a></li>
+									<li><a href="#" class="menu__link">Оплата</a></li>
+									<li><a href="#" class="menu__link">Контакты</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="top-header__column top-header__column_logo logo-header">
+						<a href="index.html" class="logo-header__link">
+							<img src="img/logo.png" alt="">
+							<span class="logo-header__title">спортивный магазин</span>
+						</a>
+					</div>
+					<div class="top-header__column top-header__column_forcart">
+						<div class="top-header__contacts contacts-header">
+							<div class="icon-phone-toggle">
+								<svg class="icon icon-phone">
+									<use xlink:href="img/sprite/sprite.svg#phone"></use>
+								</svg>
+							</div>
+							<div class="contacts-header__wrapp">
+								<div class="contacts-header__item contacts-header__item_icon">
+									<svg class="icon icon-phone">
+										<use xlink:href="img/sprite/sprite.svg#phone"></use>
+									</svg>
+									<div class="contacts-header__lable">Москва</div>
+									<a href="tel:84991234567" class="contacts-header__phone">
+										8-499-123-45-67
+									</a>
+								</div>
+								<div class="contacts-header__item contacts-header__item_icon">
+									<svg class="icon icon-phone">
+										<use xlink:href="img/sprite/sprite.svg#phone"></use>
+									</svg>
+									<div class="contacts-header__lable">Бесплатно для России</div>
+									<a href="tel:88001234567" class="contacts-header__phone">8-800-123-45-67</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom bottom-header">
+				<div class="header__container header__container_bottom">
+					<div class="bottom-header__column">
+						<div class="bottom-header__actions actions-header">
+							<ul data-da='.menu__body,640,0' class="actions-header__list">
+								<li>
+									<a href="" class="actions-header__login actions-header__link">
+										<svg class="icon icon-sign-in">
+											<use xlink:href="img/sprite/sprite.svg#right-to-bracket"></use>
+										</svg>
+										<span>Вход</span></a>
+								</li>
+								<li>
+									<a href="" class="actions-header__registration actions-header__link">
+										<svg class="icon icon-user">
+											<use xlink:href="img/sprite/sprite.svg#user"></use>
+										</svg>
+										<span>Регистрация</span></a>
+								</li>
+								<li>
+									<a href="mailto:sport@gmail.com" class="actions-header__email actions-header__link">
+										<svg class="icon icon-envelope">
+											<use xlink:href="img/sprite/sprite.svg#envelope"></use>
+										</svg><span>sport@gmail.com</span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="bottom-header__column">
+						<div class="bottom-header__info info-header">
+							<div data-da='.menu__body,640,2' class="info-header__column info-header__column_callback">
+								<button type="button" data-popup="#popup-callback" class="info-header__callback">
+									<svg class="icon icon-phone">
+										<use xlink:href="img/sprite/sprite.svg#phone"></use>
+									</svg>
+									<span>Обратный звонок</span>
+								</button>
+							</div>
+							<div class="info-header__column">
+								<div class="info-header__schedule schedule">
+									<div class="schedule__row">
+										<div class="schedule__column schedule__column--icon">
+											<svg class="icon event-date">
+												<use xlink:href="img/sprite/sprite.svg#event-date"></use>
+											</svg>
+										</div>
+										<div class="schedule__column">
+											<p><span>Пн–Пт:</span> 09:00–21:00;</p>
+											<p><span>Сб–Вс:</span> 10:00–20:00</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div data-da=".top-header__column_forcart, 640,1" class="info-header__column">
+								<a href="" class="info-header__cart">
+									<svg class="icon basket-shopping">
+										<use xlink:href="img/sprite/sprite.svg#basket-shopping"></use>
+									</svg>
+									<span>12</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__container">
+				<aside class="page__side aside">
+					<nav class="page__catalog catalog">
+						<div class="catalog__header">
+							<h2 class="catalog__title">
+								Каталог товаров
+							</h2>
+							<button class="catalog__icon-menu">
+								<span></span>
+								<span></span>
+								<span></span>
+							</button>
+						</div>
+						<div class="catalog__menu menu-catalog" hidden>
+							<ul class="menu-catalog__list">
+								<li class="menu-catalog__item"><a class="menu-catalog__link" href="#">Беговые дорожки</a></li>
+								<li class="menu-catalog__item"><a class="menu-catalog__link" href="#">Эллиптические
+										тренажеры</a>
+								</li>
+								<li class="menu-catalog__item menu-catalog__item_parent">
+									<button class="menu-catalog__link menu-catalog__link-parent">Велотренажеры<span class="icon-arrow icon-arrow_right"></span></button>
+									<div class="catalog__sub subcatalog">
+										<div class="subcatalog__item">
+											<ul class="subcatalog__menu submenu-catalog">
+												<li class="submenu-catalog__li"><a href="#" class="submenu-catalog__link">Всепогодный</a>
+												</li>
+												<li class=" submenu-catalog__li"><a href="#" class="submenu-catalog__link">Для
+														помещений</a>
+												</li>
+												<li class="submenu-catalog__li"><a href="#" class="submenu-catalog__link">Профессиональный</a>
+												</li>
+												<li class="submenu-catalog__li"><a href="#" class="submenu-catalog__link">Любительский</a>
+												</li>
+											</ul>
+											<div class="subcatalog__product product">
+												<div class="product__actions actions-product">
+													<span class="actions-product__item actions-product__item_goods-day">1товар
+														дня</span>
+												</div>
+												<h3 class="product__title"><a href="#" class="product__category">Домашний
+														теннисный стол</a>
+													<a href="#" class="product__name">Donic Indoor Roller 800 Green</a>
+												</h3>
+												<a class="product__img">
+													<img src="img/goods/table.jpg" alt="">
+												</a>
+												<div class="product__footer">
+													<div class="product__price-old">
+														<!--<span class="product__price-old-value">64 990</span>
+                              <span class="product__price-old-currency">&#8381;</span>-->
+													</div>
+													<div class="product__basket basket-add">
+														<a class="basket-add__link" href="#">
+															<svg class="icon basket-shopping">
+																<use xlink:href="img/sprite/sprite.svg#basket-shopping"></use>
+															</svg>
+														</a>
+													</div>
+													<div class="product__price">
+														<div class="product__price-current">64 990 <span class="product__price-current-currency">&#8381;</span></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="menu-catalog__item menu-catalog__item_parent">
+									<button class="menu-catalog__link menu-catalog__link-parent">Гребные
+										тренажеры<span class="icon-arrow icon-arrow_right"></span></button>
+									<div class="catalog__sub subcatalog">
+										<div class="subcatalog__item">
+											<ul class="subcatalog__menu submenu-catalog">
+												<li class="submenu-catalog__li"><a href="#" class="submenu-catalog__link">Всепогодный</a>
+												</li>
+												<li class="submenu-catalog__li"><a href="#" class="submenu-catalog__link">Для
+														помещений</a>
+												</li>
+												<li class="submenu-catalog__li"><a href="#" class="submenu-catalog__link">Профессиональный</a>
+												</li>
+												<li class="submenu-catalog__li"><a href="#" class="submenu-catalog__link">Любительский</a>
+												</li>
+											</ul>
+											<div class="subcatalog__product product">
+												<div class="product__actions actions-product">
+													<span class="actions-product__item actions-product__item_goods-day">2товар
+														дня</span>
+												</div>
+												<h3 class="product__title"><a href="#" class="product__category">Домашний
+														теннисный стол</a>
+													<a href="#" class="product__name">Donic Indoor Roller 800 Green</a>
+												</h3>
+												<a class="product__img">
+													<img src="img/goods/table.jpg" alt="">
+												</a>
+												<div class="product__footer">
+													<div class="product__price-old">
+														<!--<span class="product__price-old-value">64 990</span>
+                                 <span class="product__price-old-currency">&#8381;</span>-->
+													</div>
+													<div class="product__basket basket-add">
+														<a class="basket-add__link" href="#">
+															<svg class="icon basket-shopping">
+																<use xlink:href="img/sprite/sprite.svg#basket-shopping"></use>
+															</svg>
+														</a>
+													</div>
+													<div class="product__price">
+														<div class="product__price-current">64 990 <span class="product__price-current-currency">&#8381;</span></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="menu-catalog__item"><a class="menu-catalog__link" href="#">Вибромассажеры</a></li>
+								<li class="menu-catalog__item menu-catalog__item_parent">
+									<button class="menu-catalog__link menu-catalog__link-parent">Теннисные
+										столы<span class="icon-arrow icon-arrow_right"></span></button>
+									<div class="catalog__sub subcatalog">
+										<div class="subcatalog__item">
+											<ul class="subcatalog__menu submenu-catalog">
+												<li class="submenu-catalog__li"><a href="#" class="submenu-catalog__link">Всепогодный</a>
+												</li>
+												<li class="submenu-catalog__li"><a href="#" class="submenu-catalog__link">Для
+														помещений</a>
+												</li>
+												<li class="submenu-catalog__li"><a href="#" class="submenu-catalog__link">Профессиональный</a>
+												</li>
+												<li class="submenu-catalog__li"><a href="#" class="submenu-catalog__link">Любительский</a>
+												</li>
+											</ul>
+											<div class="subcatalog__product product">
+												<div class="product__actions actions-product">
+													<span class="actions-product__item actions-product__item_goods-day">3товар
+														дня</span>
+												</div>
+												<h3 class="product__title"><a href="#" class="product__category">Домашний
+														теннисный стол</a>
+													<a href="#" class="product__name">Donic Indoor Roller 800 Green</a>
+												</h3>
+												<a class="product__img">
+													<img src="img/goods/table.jpg" alt="">
+												</a>
+												<div class="product__footer">
+													<div class="product__price-old">
+														<!--<span class="product__price-old-value">64 990</span>
+                                 <span class="product__price-old-currency">&#8381;</span>-->
+													</div>
+													<div class="product__basket basket-add">
+														<a class="basket-add__link" href="#">
+															<svg class="icon basket-shopping">
+																<use xlink:href="img/sprite/sprite.svg#basket-shopping"></use>
+															</svg>
+														</a>
+													</div>
+													<div class="product__price">
+														<div class="product__price-current">64 990 <span class="product__price-current-currency">&#8381;</span></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="menu-catalog__item"><a class="menu-catalog__link" href="#">Баскетбол</a></li>
+								<li class="menu-catalog__item"><a class="menu-catalog__link" href="#">Массажные кресла</a>
+								</li>
+								<li class="menu-catalog__item menu-catalog__item_parent">
+									<button class="menu-catalog__link menu-catalog__link-parent">Массажные столы
+										<span class="icon-arrow icon-arrow_right"></span></button>
+									<div class="catalog__sub subcatalog">
+										<div class="subcatalog__item">
+											<ul class="subcatalog__menu submenu-catalog">
+												<li class="submenu-catalog__li"><a href="#" class="submenu-catalog__link">Всепогодный</a>
+												</li>
+												<li class="submenu-catalog__li"><a href="#" class="submenu-catalog__link">Для
+														помещений</a>
+												</li>
+												<li class="submenu-catalog__li"><a href="#" class="submenu-catalog__link">Профессиональный</a>
+												</li>
+												<li class="submenu-catalog__li"><a href="#" class="submenu-catalog__link">Любительский</a>
+												</li>
+											</ul>
+											<div class="subcatalog__product product">
+												<div class="product__actions actions-product">
+													<span class="actions-product__item actions-product__item_goods-day">4товар
+														дня</span>
+												</div>
+												<h3 class="product__title"><a href="#" class="product__category">Домашний
+														теннисный стол</a>
+													<a href="#" class="product__name">Donic Indoor Roller 800 Green</a>
+												</h3>
+												<a class="product__img">
+													<img src="img/goods/table.jpg" alt="">
+												</a>
+												<div class="product__footer">
+													<div class="product__price-old">
+														<!--<span class="product__price-old-value">64 990</span>
+                                 <span class="product__price-old-currency">&#8381;</span>-->
+													</div>
+													<div class="product__basket basket-add">
+														<a class="basket-add__link" href="#">
+															<svg class="icon basket-shopping">
+																<use xlink:href="img/sprite/sprite.svg#basket-shopping"></use>
+															</svg>
+														</a>
+													</div>
+													<div class="product__price">
+														<div class="product__price-current">64 990 <span class="product__price-current-currency">&#8381;</span></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="menu-catalog__item"><a class="menu-catalog__link" href="#">Силовые тренажеры</a>
+								</li>
+								<li class="menu-catalog__item"><a class="menu-catalog__link" href="#">Батуты</a></li>
+								<li class="menu-catalog__item"><a class="menu-catalog__link" href="#">Детские городки</a></li>
+								<li class="menu-catalog__item"><a class="menu-catalog__link" href="#">Дачная мебель</a></li>
+								<li class="menu-catalog__item"><a class="menu-catalog__link" href="#">Уличные спортивные
+										комплексы</a></li>
+								<li class="menu-catalog__item"><a class="menu-catalog__link" href="#">Аксессуары</a></li>
+							</ul>
+						</div>
+					</nav>
+					<form action="#" method="get" data-spollers="992,max" class="filter">
+						<div data-spoller class="filter__title">Фильтр товаров</div>
+						<div class="filter__body">
+							<div class="filter__section section-filter">
+								<div class="section-filter__title">
+									<div class="section-filter__legend section-filter__legend_price">Цена (руб.)</div>
+								</div>
+								<div id="price-range"></div>
+								<div class="price-values">
+									<div class="price-values__column">
+										<label for="price-start">от</label>
+										<input type="number" min="0" id="price-start">
+									</div>
+									<div class="price-values__column">
+										<label for="price-end">до</label>
+										<input type="number" min="0" id="price-end">
+									</div>
+								</div>
+							</div>
+							<div class=" filter__section section-filter compare-goods">
+								<div class="section-filter__title">
+									<div class="section-filter__legend">
+										Товары для сравнения
+									</div>
+								</div>
+								<div class="section-filter__body">
+									<ul class="compare-goods__list">
+										<li class="compare-goods__item">
+											<a href="" class="compare-goods__link">NordicTrack C10
+											</a>
+											<button class="compare-goods__remove" aria-label="Close"></button>
+										</li>
+										<li class="compare-goods__item">
+											<a href="" class="compare-goods__link">Clear Fit Luxury LT.20
+											</a>
+											<button class="compare-goods__remove" aria-label="Close"></button>
+										</li>
+										<li class="compare-goods__item">
+											<a href="" class="compare-goods__link">
+												Ammity ATM 720 TFT+</a>
+											<button class="compare-goods__remove" aria-label="Close"></button>
+										</li>
+									</ul>
+								</div>
+								<div class="section-filter__footer compare-goods__control control-compare">
+									<button class="control-compare__btn btn">
+										<svg class="icon icon-scale-balanced">
+											<use xlink:href="img/sprite/sprite.svg#scale-balanced"></use>
+										</svg>
+										Сравнить</button>
+									<button class="control-compare__remove" aria-label="remove-all">
+										<svg class="icon icon-trash-can">
+											<use xlink:href="img/sprite/sprite.svg#trash-can"></use>
+										</svg>
+									</button>
+								</div>
+							</div>
+							<div data-spollers class="filter__section section-filter">
+								<div data-spoller class="section-filter__title _spoller _spoller-active">
+									<div class=" section-filter__legend">
+										Производитель:
+									</div>
+									<button type="button" class="filter__toggle icon-arrow icon-arrow_right"></button>
+								</div>
+
+								<div class="section-filter__body">
+									<div class="section-filter__list-option option-list-filter">
+										<div class="checkbox option-list-filter__item">
+											<input id="m_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Сlear-fit" name="form[]">
+
+											<label for="m_1" class="checkbox__label"><span class="checkbox__text"></span>Сlear-fit</label>
+										</div>
+										<div class="checkbox option-list-filter__item">
+											<input id="m_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Diadora" name="form[]">
+
+											<label for="m_2" class="checkbox__label"><span class="checkbox__text"></span>Diadora</label>
+										</div>
+										<div class="checkbox option-list-filter__item">
+											<input id="m_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Hasttings" name="form[]">
+
+											<label for="m_3" class="checkbox__label"><span class="checkbox__text"></span>Hasttings</label>
+										</div>
+										<div class="checkbox option-list-filter__item">
+											<input id="m_4" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Carbon-fitness" name="form[]">
+
+											<label for="m_4" class="checkbox__label"><span class="checkbox__text"></span>Carbon-fitness</label>
+										</div>
+										<div class="checkbox option-list-filter__item">
+											<input id="m_5" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Nordic Track" name="form[]">
+
+											<label for="m_5" class="checkbox__label"><span class="checkbox__text"></span>Nordic
+												Track</label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div data-spollers class="filter__section section-filter ">
+								<div data-spoller class="section-filter__title _spoller">
+									<div class="section-filter__legend">
+										Размер бегового полотна:
+									</div>
+									<button type="button" class="filter__toggle icon-arrow icon-arrow_right"></button>
+								</div>
+								<div class="section-filter__body">
+									<div class="section-filter__list-option option-list-filter">
+										<div class="checkbox option-list-filter__item">
+											<input id="m_1-1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Сlear-fit" name="form[]">
+
+											<label for="m_1-1" class="checkbox__label"><span class="checkbox__text"></span>Сlear-fit</label>
+										</div>
+										<div class="checkbox option-list-filter__item">
+											<input id="m_2-1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Diadora" name="form[]">
+
+											<label for="m_2-1" class="checkbox__label"><span class="checkbox__text"></span>Diadora</label>
+										</div>
+										<div class="checkbox option-list-filter__item">
+											<input id="m_3-1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Hasttings" name="form[]">
+
+											<label for="m_3-1" class="checkbox__label"><span class="checkbox__text"></span>Hasttings</label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div data-spollers class="filter__section section-filter ">
+								<div data-spoller class="section-filter__title _spoller">
+									<div class="section-filter__legend">
+										Вес пользователя (макс.):
+									</div>
+									<button type="button" class="filter__toggle icon-arrow icon-arrow_right"></button>
+								</div>
+								<div class="section-filter__body">
+									<div class="section-filter__list-option option-list-filter">
+										<div class="checkbox option-list-filter__item">
+											<input id="m_1-2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Сlear-fit" name="form[]">
+
+											<label for="m_1-2" class="checkbox__label"><span class="checkbox__text"></span>Сlear-fit</label>
+										</div>
+										<div class="checkbox option-list-filter__item">
+											<input id="m_2-2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Diadora" name="form[]">
+
+											<label for="m_2-2" class="checkbox__label"><span class="checkbox__text"></span>Diadora</label>
+										</div>
+										<div class="checkbox option-list-filter__item">
+											<input id="m_3-2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Hasttings" name="form[]">
+
+											<label for="m_3-2" class="checkbox__label"><span class="checkbox__text"></span>Hasttings</label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div data-spollers class="filter__section section-filter ">
+								<div data-spoller class="section-filter__title _spoller">
+									<div class="section-filter__legend">
+										Скорость (макс.):
+									</div>
+									<button type="button" class="filter__toggle icon-arrow icon-arrow_right"></button>
+								</div>
+								<div class="section-filter__body">
+									<div class="section-filter__list-option option-list-filter">
+										<div class="checkbox option-list-filter__item">
+											<input id="m_1-3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Сlear-fit" name="form[]">
+											<label for="m_1" class="checkbox__label"><span class="checkbox__text"></span>Сlear-fit</label>
+										</div>
+										<div class="checkbox option-list-filter__item">
+											<input id="m_2-3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Diadora" name="form[]">
+
+											<label for="m_2-3" class="checkbox__label"><span class="checkbox__text"></span>Diadora</label>
+										</div>
+										<div class="checkbox option-list-filter__item">
+											<input id="m_3-3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="Hasttings" name="form[]">
+
+											<label for="m_3-3" class="checkbox__label"><span class="checkbox__text"></span>Hasttings</label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div data-spollers class="filter__section section-filter ">
+								<div data-spoller class="section-filter__title _spoller">
+									<div class="section-filter__legend">
+										Угол наклона :
+									</div>
+									<button type="button" class="filter__toggle icon-arrow icon-arrow_right"></button>
+								</div>
+								<div class="section-filter__body">
+
+									<div class="section-filter__list-option option-list-filter">
+										<div class="checkbox option-list-filter__item">
+											<input id="a_1-4" data-error="Ошибка" class="checkbox__input" type="checkbox" value="нет регулировки" name="form[]">
+
+											<label for="a_1-4" class="checkbox__label"><span class="checkbox__text">
+
+												</span>нет регулировки</label>
+										</div>
+										<div class="checkbox option-list-filter__item">
+											<input id="a_2-4" data-error="Ошибка" class="checkbox__input" type="checkbox" value="механическая" name="form[]">
+
+											<label for="a_2-4" class="checkbox__label"><span class="checkbox__text"></span>механическая</label>
+										</div>
+										<div class="checkbox option-list-filter__item">
+											<input id="a_3-4" data-error="Ошибка" class="checkbox__input" type="checkbox" value="электронная" name="form[]">
+
+											<label for="a_3-4" class="checkbox__label"><span class="checkbox__text"></span>электронная</label>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="filter__control control-filter">
+								<button type="button" class="control-filter__btn btn filter__find">Подобрать</button>
+								<button type="button" class="control-filter__btn btn filter__reset">Сбросить</button>
+							</div>
+						</div>
+					</form>
+				</aside>
+				<div class="page__content">
+					<form action="#" class="page__search search-page">
+						<div class="search-page__select">
+							<button type="button" class="search-page__title title-search">
+								<svg class="icon icon-search">
+									<use xlink:href="img/sprite/sprite.svg#magnifying-glass"></use>
+								</svg>
+								<span class="title-search__value">Везде</span>
+								<span class="icon-arrow icon-arrow__down"></span>
+							</button>
+							<div class="search-page__categories categories-search">
+								<div class="categories-search__column">
+									<ul class="categories-search__list">
+										<li>
+											<div class="categories-search__checkbox checkbox">
+												<input id="c_1" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_1" class="checkbox__label"><span class="checkbox__text">Беговые
+														дорожки </span></label>
+											</div>
+										</li>
+										<li>
+											<div class="categories-search__checkbox checkbox">
+												<input id="c_2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_2" class="checkbox__label"><span class="checkbox__text">Эллиптические
+														тренажеры</span></label>
+											</div>
+										</li>
+										<li>
+											<div class="categories-search__checkbox checkbox">
+												<input id="c_3" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_3" class="checkbox__label"><span class="checkbox__text">Велотренажеры</span></label>
+											</div>
+										</li>
+										<li>
+											<div class="categories-search__checkbox checkbox">
+												<input id="c_4" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_4" class="checkbox__label"><span class="checkbox__text">Гребные
+														тренажеры</span></label>
+											</div>
+										</li>
+										<li>
+											<div class="categories-search__checkbox checkbox">
+												<input id="c_5" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_5" class="checkbox__label"><span class="checkbox__text">Вибромассажеры</span></label>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="categories-search__column">
+									<ul class="categories-search__list">
+										<li>
+											<div class="categories-search__checkbox checkbox">
+												<input id="c_6" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_6" class="checkbox__label"><span class="checkbox__text">Теннисные
+														столы</span></label>
+											</div>
+										</li>
+										<li>
+											<div class="categories-search__checkbox checkbox">
+												<input id="c_7" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_7" class="checkbox__label"><span class="checkbox__text">Баскетбольные
+														щиты и стойки</span></label>
+											</div>
+										</li>
+										<li>
+											<div class="categories-search__checkbox checkbox">
+												<input id="c_8" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_8" class="checkbox__label"><span class="checkbox__text">Массажные
+														кресла</span></label>
+											</div>
+										</li>
+										<li>
+											<div class="categories-search__checkbox checkbox">
+												<input id="c_9" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_9" class="checkbox__label"><span class="checkbox__text">Массажные
+														столы</span></label>
+											</div>
+										</li>
+										<li>
+											<div class="categories-search__checkbox checkbox">
+												<input id="c_10" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_10" class="checkbox__label"><span class="checkbox__text">Силовые
+														тренажеры</span></label>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="categories-search__column">
+									<ul class="categories-search__list">
+										<li>
+											<div class="categories-search__checkbox checkbox">
+												<input id="c_11" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_11" class="checkbox__label"><span class="checkbox__text">Батуты</span></label>
+											</div>
+										</li>
+										<li>
+											<div class="categories-search__checkbox checkbox">
+												<input id="c_12" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_12" class="checkbox__label"><span class="checkbox__text">Детские
+														городки</span></label>
+											</div>
+										</li>
+										<li>
+											<div class="categories-search__checkbox checkbox">
+												<input id="c_13" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_13" class="checkbox__label"><span class="checkbox__text">Дачная
+														мебель</span></label>
+											</div>
+										</li>
+										<li>
+											<div class="categories-search__checkbox checkbox">
+												<input id="c_14" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_14" class="checkbox__label"><span class="checkbox__text">Уличные
+														спортивные комплексы</span></label>
+											</div>
+										</li>
+										<li>
+											<div class="categories-search__checkbox checkbox">
+												<input id="c_15" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+												<label for="c_15" class="checkbox__label"><span class="checkbox__text">Аксессуары</span></label>
+											</div>
+										</li>
+
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="search-page__input">
+							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="" class="input">
+						</div>
+						<div class="search-page__submit">
+							<button type="submit" class="search-page__btn button">Найти</button>
+						</div>
+					</form>
+					<nav class="page__breadcrumbs breadcrumbs">
+						<ul class="breadcrumbs__list">
+							<li class="breadcrumbs__item">
+								<a href="#">Главная</a> <span class="icon-arrow icon-arrow_right"></span>
+							</li>
+							<li class="breadcrumbs__item">
+								<a>Каталог товара</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="page__catalog catalog-products">
+						<h1 class="catalog-products__title">Популярные товары</h1>
+						<div class="catalog-products__sorting sorting-catalog">
+							<div class="sorting-catalog__title">Сортировать по:</div>
+							<select class="form" name="form[]">
+								<option value="1" selected>По умолчанию</option>
+								<option value="2">Список</option>
+								<option value="3">По бренду</option>
+							</select>
+							<div class="sorting-catalog__buttons buttons-sorting">
+								<button class="buttons-sorting__grid buttons-sorting__icon">
+									<svg class="icon icon-grid-2">
+										<use xlink:href="img/sprite/sprite.svg#grid-2"></use>
+									</svg>
+								</button>
+								<button class="buttons-sorting__list buttons-sorting__icon _active">
+									<svg class="icon icon-list-solid">
+										<use xlink:href="img/sprite/sprite.svg#list-solid"></use>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="catalog-products__nav nav-catalog nav-catalog_top">
+							<div class="nav-catalog__title">На странице:</div>
+							<div class="nav-catalog__show show-catalog">
+								<select name="form[]" class="form">
+									<option value="1" selected>9</option>
+									<option value="18">18</option>
+									<option value="20">20</option>
+									<option value="100">100</option>
+								</select>
+							</div>
+							<div class="nav-catalog__pagination pagination-catalog">
+								<a class="pagination-catalog__item pagination-catalog__item-prev _disabled" href="#">
+									<svg class="icon icon-circle-left">
+										<use xlink:href="img/sprite/sprite.svg#circle-left"></use>
+									</svg>
+								</a>
+								<ul class="pagination-catalog__list">
+									<li class="pagination-catalog__item pagination-catalog__item_active"><a href="#">1</a></li>
+									<li class="pagination-catalog__item"><a href="#">2</a></li>
+									<li class="pagination-catalog__item"><a href="#">3</a></li>
+									<li class="pagination-catalog__item"><a href="#">4</a></li>
+									<li class="pagination-catalog__item"><a href="#">5</a></li>
+									<li class="pagination-catalog__item pagination-catalog__item--more">....</li>
+									<li class="pagination-catalog__item"><a href="#">10</a></li>
+								</ul>
+								<a class="pagination-catalog__item pagination-catalog__item-next " href="#">
+									<svg class="icon icon-circle-right">
+										<use xlink:href="img/sprite/sprite.svg#circle-right"></use>
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="items-product">
+							<div class="items-product__column">
+								<div class="product catalog-product">
+									<h3 class="product__title">
+										<a href="#" class="product__name">BH Fitness F1 G6414V</a>
+										<a href="#" class="product__category">Беговая дорожка</a>
+									</h3>
+									<a class="product__img">
+										<img src="img/goods/p1.jpg" alt="">
+									</a>
+									<div class="product__footer">
+										<div class="product__price-old">
+											<span class="product__price-old-value">64 990</span>
+											<span class="product__price-old-currency">&#8381;</span>
+										</div>
+										<div class="product__basket basket-add">
+											<a class="basket-add__link" href="#"><svg class="icon basket-shopping">
+													<use xlink:href="img/sprite/sprite.svg#basket-shopping"></use>
+												</svg></a>
+										</div>
+										<div class="product__price">
+											<div class="product__price-current">64 990 <span class="product__price-current-currency">&#8381;</span></div>
+										</div>
+									</div>
+									<div class="product__hover hover-product">
+										<h3 class="hover-product__title">
+											<a href="#" class="product__name">BH Fitness F1 G6414V</a>
+											<a href="#" class="product__category">Беговая дорожка</a>
+										</h3>
+										<ul class="hover-product__options options-product">
+											<li class="options-product__item">
+												<p class="options-product__name">Тип беговой дорожки:</p>
+												<p class="options-product__value">Электрическая</p>
+											</li>
+											<li class="options-product__item">
+												<p class="options-product__name">Скорость движения (км/ч): </p>
+												<p class="options-product__value">22</p>
+											</li>
+											<li class="options-product__item">
+												<p class="options-product__name">Складывание: </p>
+												<p class="options-product__value">Есть</p>
+											</li>
+										</ul>
+										<div class="hover-product__compare compare-product">
+											<a class="compare-product__item" href="#"><svg class="icon icon-scale-balanced">
+													<use xlink:href="img/sprite/sprite.svg#scale-balanced"></use>
+												</svg>Сравнить</a>
+										</div>
+										<div class="hover-product__footer hover-product__footer_catalog">
+											<a class="basket-add__link" href="#"><svg class="icon basket-shopping">
+													<use xlink:href="img/sprite/sprite.svg#basket-shopping"></use>
+												</svg></a>
+											<div class="hover-product__price-old">
+												<span class="hover-product__price-old-value">64 990</span>
+												<span class="hover-product__price-old-currency">&#8381;</span>
+											</div>
+											<div class="hover-product__status status-product">
+											</div>
+											<div class="hover-product__price">
+												<div class="hover-product__price-current">64 990 <span class="hover-product__price-current-currency">&#8381;</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="items-product__column">
+								<div class="product catalog-product">
+									<h3 class="product__title">
+										<a href="#" class="product__name">BH Fitness F1 G6414V</a>
+										<a href="#" class="product__category">Беговая дорожка</a>
+									</h3>
+									<a class="product__img">
+										<img src="img/goods/p1.jpg" alt="">
+									</a>
+									<div class="product__footer">
+										<div class="product__price-old">
+											<span class="product__price-old-value">64 990</span>
+											<span class="product__price-old-currency">&#8381;</span>
+										</div>
+										<div class="product__basket basket-add">
+											<a class="basket-add__link" href="#"><svg class="icon basket-shopping">
+													<use xlink:href="img/sprite/sprite.svg#basket-shopping"></use>
+												</svg></a>
+										</div>
+										<div class="product__price">
+											<div class="product__price-current">64 990 <span class="product__price-current-currency">&#8381;</span></div>
+										</div>
+									</div>
+									<div class="product__hover hover-product">
+										<h3 class="hover-product__title">
+											<a href="#" class="product__name">BH Fitness F1 G6414V</a>
+											<a href="#" class="product__category">Беговая дорожка</a>
+										</h3>
+										<ul class="hover-product__options options-product">
+											<li class="options-product__item">
+												<p class="options-product__name">Тип беговой дорожки:</p>
+												<p class="options-product__value">Электрическая</p>
+											</li>
+											<li class="options-product__item">
+												<p class="options-product__name">Скорость движения (км/ч): </p>
+												<p class="options-product__value">22</p>
+											</li>
+											<li class="options-product__item">
+												<p class="options-product__name">Складывание: </p>
+												<p class="options-product__value">Есть</p>
+											</li>
+										</ul>
+										<div class="hover-product__compare compare-product">
+											<a class="compare-product__item" href="#"><svg class="icon icon-scale-balanced">
+													<use xlink:href="img/sprite/sprite.svg#scale-balanced"></use>
+												</svg>Сравнить</a>
+										</div>
+										<div class="hover-product__footer hover-product__footer_catalog">
+											<a class="basket-add__link" href="#"><svg class="icon basket-shopping">
+													<use xlink:href="img/sprite/sprite.svg#basket-shopping"></use>
+												</svg></a>
+											<div class="hover-product__price-old">
+												<span class="hover-product__price-old-value">64 990</span>
+												<span class="hover-product__price-old-currency">&#8381;</span>
+											</div>
+											<div class="hover-product__status status-product">
+											</div>
+											<div class="hover-product__price">
+												<div class="hover-product__price-current">64 990 <span class="hover-product__price-current-currency">&#8381;</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="items-product__column">
+								<div class="product catalog-product">
+									<h3 class="product__title">
+										<a href="#" class="product__name">BH Fitness F1 G6414V</a>
+										<a href="#" class="product__category">Беговая дорожка</a>
+									</h3>
+									<a class="product__img">
+										<img src="img/goods/p1.jpg" alt="">
+									</a>
+									<div class="product__footer">
+										<div class="product__price-old">
+											<span class="product__price-old-value">64 990</span>
+											<span class="product__price-old-currency">&#8381;</span>
+										</div>
+										<div class="product__basket basket-add">
+											<a class="basket-add__link" href="#"><svg class="icon basket-shopping">
+													<use xlink:href="img/sprite/sprite.svg#basket-shopping"></use>
+												</svg></a>
+										</div>
+										<div class="product__price">
+											<div class="product__price-current">64 990 <span class="product__price-current-currency">&#8381;</span></div>
+										</div>
+									</div>
+									<div class="product__hover hover-product">
+										<h3 class="hover-product__title">
+											<a href="#" class="product__name">BH Fitness F1 G6414V</a>
+											<a href="#" class="product__category">Беговая дорожка</a>
+										</h3>
+										<ul class="hover-product__options options-product">
+											<li class="options-product__item">
+												<p class="options-product__name">Тип беговой дорожки:</p>
+												<p class="options-product__value">Электрическая</p>
+											</li>
+											<li class="options-product__item">
+												<p class="options-product__name">Скорость движения (км/ч): </p>
+												<p class="options-product__value">22</p>
+											</li>
+											<li class="options-product__item">
+												<p class="options-product__name">Складывание: </p>
+												<p class="options-product__value">Есть</p>
+											</li>
+										</ul>
+										<div class="hover-product__compare compare-product">
+											<a class="compare-product__item" href="#"><svg class="icon icon-scale-balanced">
+													<use xlink:href="img/sprite/sprite.svg#scale-balanced"></use>
+												</svg>Сравнить</a>
+										</div>
+										<div class="hover-product__footer hover-product__footer_catalog">
+											<a class="basket-add__link" href="#"><svg class="icon basket-shopping">
+													<use xlink:href="img/sprite/sprite.svg#basket-shopping"></use>
+												</svg></a>
+											<div class="hover-product__price-old">
+												<span class="hover-product__price-old-value">64 990</span>
+												<span class="hover-product__price-old-currency">&#8381;</span>
+											</div>
+											<div class="hover-product__status status-product">
+											</div>
+											<div class="hover-product__price">
+												<div class="hover-product__price-current">64 990 <span class="hover-product__price-current-currency">&#8381;</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="items-product__column">
+								<div class="product catalog-product">
+									<h3 class="product__title">
+										<a href="#" class="product__name">BH Fitness F1 G6414V</a>
+										<a href="#" class="product__category">Беговая дорожка</a>
+									</h3>
+									<a class="product__img">
+										<img src="img/goods/p1.jpg" alt="">
+									</a>
+									<div class="product__footer">
+										<div class="product__price-old">
+											<span class="product__price-old-value">64 990</span>
+											<span class="product__price-old-currency">&#8381;</span>
+										</div>
+										<div class="product__basket basket-add">
+											<a class="basket-add__link" href="#"><svg class="icon basket-shopping">
+													<use xlink:href="img/sprite/sprite.svg#basket-shopping"></use>
+												</svg></a>
+										</div>
+										<div class="product__price">
+											<div class="product__price-current">64 990 <span class="product__price-current-currency">&#8381;</span></div>
+										</div>
+									</div>
+									<div class="product__hover hover-product">
+										<h3 class="hover-product__title">
+											<a href="#" class="product__name">BH Fitness F1 G6414V</a>
+											<a href="#" class="product__category">Беговая дорожка</a>
+										</h3>
+										<ul class="hover-product__options options-product">
+											<li class="options-product__item">
+												<p class="options-product__name">Тип беговой дорожки:</p>
+												<p class="options-product__value">Электрическая</p>
+											</li>
+											<li class="options-product__item">
+												<p class="options-product__name">Скорость движения (км/ч): </p>
+												<p class="options-product__value">22</p>
+											</li>
+											<li class="options-product__item">
+												<p class="options-product__name">Складывание: </p>
+												<p class="options-product__value">Есть</p>
+											</li>
+										</ul>
+										<div class="hover-product__compare compare-product">
+											<a class="compare-product__item" href="#"><svg class="icon icon-scale-balanced">
+													<use xlink:href="img/sprite/sprite.svg#scale-balanced"></use>
+												</svg>Сравнить</a>
+										</div>
+										<div class="hover-product__footer hover-product__footer_catalog">
+											<a class="basket-add__link" href="#"><svg class="icon basket-shopping">
+													<use xlink:href="img/sprite/sprite.svg#basket-shopping"></use>
+												</svg></a>
+											<div class="hover-product__price-old">
+												<span class="hover-product__price-old-value">64 990</span>
+												<span class="hover-product__price-old-currency">&#8381;</span>
+											</div>
+											<div class="hover-product__status status-product">
+											</div>
+											<div class="hover-product__price">
+												<div class="hover-product__price-current">64 990 <span class="hover-product__price-current-currency">&#8381;</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="items-product__column">
+								<div class="product catalog-product">
+									<h3 class="product__title">
+										<a href="#" class="product__name">BH Fitness F1 G6414V</a>
+										<a href="#" class="product__category">Беговая дорожка</a>
+									</h3>
+									<a class="product__img">
+										<img src="img/goods/p1.jpg" alt="">
+									</a>
+									<div class="product__footer">
+										<div class="product__price-old">
+											<span class="product__price-old-value">64 990</span>
+											<span class="product__price-old-currency">&#8381;</span>
+										</div>
+										<div class="product__basket basket-add">
+											<a class="basket-add__link" href="#"><svg class="icon basket-shopping">
+													<use xlink:href="img/sprite/sprite.svg#basket-shopping"></use>
+												</svg></a>
+										</div>
+										<div class="product__price">
+											<div class="product__price-current">64 990 <span class="product__price-current-currency">&#8381;</span></div>
+										</div>
+									</div>
+									<div class="product__hover hover-product">
+										<h3 class="hover-product__title">
+											<a href="#" class="product__name">BH Fitness F1 G6414V</a>
+											<a href="#" class="product__category">Беговая дорожка</a>
+										</h3>
+										<ul class="hover-product__options options-product">
+											<li class="options-product__item">
+												<p class="options-product__name">Тип беговой дорожки:</p>
+												<p class="options-product__value">Электрическая</p>
+											</li>
+											<li class="options-product__item">
+												<p class="options-product__name">Скорость движения (км/ч): </p>
+												<p class="options-product__value">22</p>
+											</li>
+											<li class="options-product__item">
+												<p class="options-product__name">Складывание: </p>
+												<p class="options-product__value">Есть</p>
+											</li>
+										</ul>
+										<div class="hover-product__compare compare-product">
+											<a class="compare-product__item" href="#"><svg class="icon icon-scale-balanced">
+													<use xlink:href="img/sprite/sprite.svg#scale-balanced"></use>
+												</svg>Сравнить</a>
+										</div>
+										<div class="hover-product__footer hover-product__footer_catalog">
+											<a class="basket-add__link" href="#"><svg class="icon basket-shopping">
+													<use xlink:href="img/sprite/sprite.svg#basket-shopping"></use>
+												</svg></a>
+											<div class="hover-product__price-old">
+												<span class="hover-product__price-old-value">64 990</span>
+												<span class="hover-product__price-old-currency">&#8381;</span>
+											</div>
+											<div class="hover-product__status status-product">
+											</div>
+											<div class="hover-product__price">
+												<div class="hover-product__price-current">64 990 <span class="hover-product__price-current-currency">&#8381;</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="items-product__column">
+								<div class="product catalog-product">
+									<h3 class="product__title">
+										<a href="#" class="product__name">BH Fitness F1 G6414V</a>
+										<a href="#" class="product__category">Беговая дорожка</a>
+									</h3>
+									<a class="product__img">
+										<img src="img/goods/p1.jpg" alt="">
+									</a>
+									<div class="product__footer">
+										<div class="product__price-old">
+											<span class="product__price-old-value">64 990</span>
+											<span class="product__price-old-currency">&#8381;</span>
+										</div>
+										<div class="product__basket basket-add">
+											<a class="basket-add__link" href="#"><svg class="icon basket-shopping">
+													<use xlink:href="img/sprite/sprite.svg#basket-shopping"></use>
+												</svg></a>
+										</div>
+										<div class="product__price">
+											<div class="product__price-current">64 990 <span class="product__price-current-currency">&#8381;</span></div>
+										</div>
+									</div>
+									<div class="product__hover hover-product">
+										<h3 class="hover-product__title">
+											<a href="#" class="product__name">BH Fitness F1 G6414V</a>
+											<a href="#" class="product__category">Беговая дорожка</a>
+										</h3>
+										<ul class="hover-product__options options-product">
+											<li class="options-product__item">
+												<p class="options-product__name">Тип беговой дорожки:</p>
+												<p class="options-product__value">Электрическая</p>
+											</li>
+											<li class="options-product__item">
+												<p class="options-product__name">Скорость движения (км/ч): </p>
+												<p class="options-product__value">22</p>
+											</li>
+											<li class="options-product__item">
+												<p class="options-product__name">Складывание: </p>
+												<p class="options-product__value">Есть</p>
+											</li>
+										</ul>
+										<div class="hover-product__compare compare-product">
+											<a class="compare-product__item" href="#"><svg class="icon icon-scale-balanced">
+													<use xlink:href="img/sprite/sprite.svg#scale-balanced"></use>
+												</svg>Сравнить</a>
+										</div>
+										<div class="hover-product__footer hover-product__footer_catalog">
+											<a class="basket-add__link" href="#"><svg class="icon basket-shopping">
+													<use xlink:href="img/sprite/sprite.svg#basket-shopping"></use>
+												</svg></a>
+											<div class="hover-product__price-old">
+												<span class="hover-product__price-old-value">64 990</span>
+												<span class="hover-product__price-old-currency">&#8381;</span>
+											</div>
+
+											<div class="hover-product__status status-product">
+											</div>
+											<div class="hover-product__price">
+												<div class="hover-product__price-current">64 990 <span class="hover-product__price-current-currency">&#8381;</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="catalog-products__nav nav-catalog nav-catalog_bottom">
+							<div class="nav-catalog__title">На странице:</div>
+							<div class="nav-catalog__show show-catalog">
+								<select name="form[]" class="form">
+									<option value="1" selected>9</option>
+									<option value="18">18</option>
+									<option value="20">20</option>
+									<option value="100">100</option>
+								</select>
+							</div>
+							<div class="nav-catalog__pagination pagination-catalog">
+								<a class="pagination-catalog__item pagination-catalog__item-prev _disabled" href="#">
+									<svg class="icon icon-circle-left">
+										<use xlink:href="img/sprite/sprite.svg#circle-left"></use>
+									</svg>
+								</a>
+								<ul class="pagination-catalog__list">
+									<li class="pagination-catalog__item pagination-catalog__item_active"><a href="#">1</a></li>
+									<li class="pagination-catalog__item"><a href="#">2</a></li>
+									<li class="pagination-catalog__item"><a href="#">3</a></li>
+									<li class="pagination-catalog__item"><a href="#">4</a></li>
+									<li class="pagination-catalog__item"><a href="#">5</a></li>
+									<li class="pagination-catalog__item pagination-catalog__item--more">....</li>
+									<li class="pagination-catalog__item"><a href="#">10</a></li>
+								</ul>
+								<a class="pagination-catalog__item pagination-catalog__item-next " href="#">
+									<svg class="icon icon-circle-right">
+										<use xlink:href="img/sprite/sprite.svg#circle-right"></use>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="page__auxiliary-menu menu-auxiliary">
+				<h2 class="visually-hidden">Вспомогательное меню</h2>
+				<div class="menu-auxiliary__container">
+					<nav class="menu-auxiliary__navigation navigation-auxiliary">
+						<div class="navigation-auxiliary__block">
+							<div class="navigation-auxiliary__title"> Информация:</div>
+							<ul class="navigation-auxiliary__list">
+								<li class="navigation-auxiliary__item"><a href="#">Бренды</a></li>
+								<li class="navigation-auxiliary__item"><a href="#">Доставка</a></li>
+								<li class="navigation-auxiliary__item"><a href="#">Распродажа</a></li>
+								<li class="navigation-auxiliary__item"><a href="#">Контакты</a></li>
+								<li class="navigation-auxiliary__item"><a href="#">Отзывы</a></li>
+							</ul>
+						</div>
+						<div class="navigation-auxiliary__block">
+							<div class="navigation-auxiliary__title"> Помощь:</div>
+							<ul class="navigation-auxiliary__list">
+								<li class="navigation-auxiliary__item"><a href="#">Как заказать</a></li>
+								<li class="navigation-auxiliary__item"><a href="#">Доставка</a></li>
+								<li class="navigation-auxiliary__item"><a href="#">Оплата</a></li>
+								<li class="navigation-auxiliary__item"><a href="#">Гарантия и сборка</a></li>
+								<li class="navigation-auxiliary__item"><a href="#">Возврат</a></li>
+							</ul>
+						</div>
+					</nav>
+
+				</div>
+			</div>
+			<div class="footer__container">
+				<div class="footer__row">
+					<div class="footer__column footer__column-info info-block">
+						<div class="info-block__row">
+							<div class="info-block__coulumn info-block__coulumn-left">
+								<div class="footer__logo">
+									<a href="index.html"><img src="img/footer-logo.jpg" alt=""></a>
+								</div>
+								<div class="footer__phone phone-footer">
+									<div class="phone-footer__row">
+										<div class="phone-footer__column phone-footer__column--icon">
+											<svg class="icon icon-phone">
+												<use xlink:href="img/sprite/sprite.svg#phone"></use>
+											</svg>
+										</div>
+										<div class="phone-footer__column">
+											<p class="phone-footer__item">
+												<a href="tel:84991234567">8-499-123-45-67</a>
+											</p>
+											<p class="phone-footer__item">
+												<a href="tel:88001234567">8-800-123-45-67</a>
+											</p>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="info-block__coulumn">
+								<div class="footer__delivery-info info-delivery">
+									<h2 class="info-delivery__title">
+										Доставка транспортными компаниями:
+									</h2>
+									<ul class="info-delivery__list">
+										<li class="info-delivery__item"><a href=""><img src="img/delivery/01.png" alt=""></a></li>
+										<li class="info-delivery__item"><a href=""><img src="img/delivery/02.png" alt=""></a></li>
+										<li class="info-delivery__item"><a href=""><img src="img/delivery/03.png" alt=""></a></li>
+										<li class="info-delivery__item"><a href=""><img src="img/delivery/04.png" alt=""></a></li>
+										<li class="info-delivery__item"><a href=""><img src="img/delivery/05.png" alt=""></a></li>
+										<li class="info-delivery__item"><a href=""><img src="img/delivery/06.png" alt=""></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="info-block__row payment-systems">
+							<div class="payment-systems__list">
+								<a href="" class="payment-systems__item"><span class="icon icon-visa"></span></a>
+								<a href="" class="payment-systems__item"><span class="icon icon-master-card"></span></a>
+								<a href="" class="payment-systems__item"><span class="icon icon-webmoney"></span></a>
+								<a href="" class="payment-systems__item"><span class="icon icon-yandexmoney"></span></a>
+								<a href="" class="payment-systems__item"><span class="icon icon-qiwi"></span></a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__column footer__column-widget footer__widgets">
+						<div class="footer__widget">
+							<img src="img/widget.jpg" alt="">
+						</div>
+						<div class="footer__widget">
+							<img src="img/widget.jpg" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="footer__copyright copyright">
+					<p class="copyright__text">©2020 Все права защищены.</p>
+					<ul class="footer__social social-list">
+						<li class="social-list__item"><a href="#" class="social-list__link social-list__link-vk">
+								<svg class="icon icon-vk-brand">
+									<use xlink:href="img/sprite/sprite.svg#vk-brands"></use>
+								</svg>
+							</a></li>
+						<li class="social-list__item"><a href="#" class="social-list__link social-list__link-fb">
+								<svg class="icon icon-vk-brand">
+									<use xlink:href="img/sprite/sprite.svg#facebook"></use>
+								</svg>
+							</a></li>
+						<li class="social-list__item"><a href="#" class="social-list__link social-list__link-int">
+								<svg class="icon icon-vk-brand">
+									<use xlink:href="img/sprite/sprite.svg#instagram"></use>
+								</svg>
+							</a></li>
+						<li class="social-list__item"><a href="#" class="social-list__link social-list__link-ok">
+								<svg class="icon icon-vk-brand">
+									<use xlink:href="img/sprite/sprite.svg#odnoklassniki-square"></use>
+								</svg>
+							</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="popup-callback" aria-hidden="true" class="popup popup-callback callback">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" aria-label="Закрыть" class="popup__close"></button>
+				<div class="callback__title">Напишите и мы свяжемся с вами</div>
+				<div class="popup__text">
+					<form action="#" class="callback__form form-callback">
+						<div class="form-callback__line">
+							<label class="form-callback__label" for="forNameCall">Ваше имя<span>*</span></label>
+							<input autocomplete="off" type="text" name="form[]" id="forNameCall" data-required data-error="Укажите имя" placeholder="" class="input form-callback__input">
+						</div>
+						<div class="form-callback__line">
+							<label class="form-callback__label" for="forPhoneCall">Ваше телефон <span>*</span></label>
+							<input autocomplete="off" type="text" name="form[]" id="forPhoneCall" data-required data-error="Укажите телефон" placeholder="" class="input phone form-callback__input">
+						</div>
+						<div class="form-callback__line">
+							<button class="btn btn-send" type="submit"><svg class="icon icon-envelope">
+									<use xlink:href="img/sprite/sprite.svg#envelope"></use>
+								</svg><span>Отправить</span></button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
